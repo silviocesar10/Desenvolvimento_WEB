@@ -1,0 +1,37 @@
+@model EnquetesWEB.Models.Resposta
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete :: Resposta</title>
+</head>
+<body>
+    <h1>EnqueteWeb!</h1>
+    <h2>Você teria coragem de fazer uma viagem sem volta para Marte??</h2>
+    <h4>Preencha os campos e marque sua resposta!</h4>
+    <form method="POST">
+        <div>
+            <label for="txtNome">Seu Nome Completo: </label><br>
+            <input type="text" name="Nome" id="txtNome">
+        </div>
+        <div>
+            <label for="txtEmail">Seu Email: </label><br>
+            <input type="email" name="Email" id="txtEmail">
+        </div>
+        <div>
+            Resposta:
+            <div>
+                <input type="radio" name="Sim" id="rdSim" value="true">
+                <label for="rdSim">Sim</label>
+            </div>
+            <div>
+                <input type="radio" name="Sim" id="rdNao" value="false">
+                <label for="rdNao">Não</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

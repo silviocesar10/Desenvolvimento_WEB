@@ -1,0 +1,4 @@
+<label asp-for="Nome">Seu Nome Completo: </label><br>
+<input asp-for="Name">
+<label for="txtEmail">Seu Email: </label><br>
+<input asp-for="Email">

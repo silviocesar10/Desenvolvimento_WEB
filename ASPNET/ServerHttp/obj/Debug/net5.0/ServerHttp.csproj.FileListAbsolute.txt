@@ -1,0 +1,16 @@
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ServerHttp
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ServerHttp.deps.json
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ServerHttp.runtimeconfig.json
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ServerHttp.runtimeconfig.dev.json
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ServerHttp.dll
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ref/ServerHttp.dll
+/home/silvio/Documentos/DW/ServerHttp/bin/Debug/net5.0/ServerHttp.pdb
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.csprojAssemblyReference.cache
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.GeneratedMSBuildEditorConfig.editorconfig
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.AssemblyInfoInputs.cache
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.AssemblyInfo.cs
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.csproj.CoreCompileInputs.cache
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.dll
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ref/ServerHttp.dll
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.pdb
+/home/silvio/Documentos/DW/ServerHttp/obj/Debug/net5.0/ServerHttp.genruntimeconfig.cache

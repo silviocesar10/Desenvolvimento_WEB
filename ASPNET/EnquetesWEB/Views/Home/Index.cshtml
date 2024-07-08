@@ -1,0 +1,22 @@
+﻿@model EnquetesWEB.Models.Resposta
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/lib/boostrap5/dist/css/boostrap.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enquete Web</title> 
+    </head>
+    <body>
+        <div class="container">
+            <h1>Enquete Web</h1>
+            <h2>Você teria coragem de fazer uma viagem sem volta para Marte??</h2>
+            <p>
+                <a asp-action="Responder" class="btn btn-primary">Responder Agora</a>
+                <a asp-action="Resultado" class="btn btn-primary">Ver Resultado Parcial</a>
+            </p>
+        </div>
+    </body>
+</html>

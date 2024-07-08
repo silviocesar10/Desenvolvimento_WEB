@@ -1,0 +1,48 @@
+@model EnquetesWEB.Models.Resposta
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/lib/boostrap5/dist/css/boostrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete :: Resposta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="offset-3 col-6">
+                <h1>EnqueteWeb!</h1>
+                <h2>Você teria coragem de fazer uma viagem sem volta para Marte??</h2>
+                <h4>Preencha os campos e marque sua resposta!</h4>
+                <div asp-validation-summary="All"></div>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="txtNome">Seu Nome Completo: </label><br>
+                        <input asp-for="Nome">
+                    </div>
+                    <div class="form-group">
+                        
+                        <label for="txtEmail">Seu Email: </label><br>
+                        <input asp-for="Email"> 
+                    </div>
+                    <div class="form-group">
+                        Resposta:
+                        <div>
+                            <input type="radio" Name="Sim" id="rdSim" value="true" class="form-check-label">
+                            <label for="rdSim">Sim</label>
+                        </div>
+                        <div>
+                            <input type="radio" Name="Sim" id="rdNao" value="false" class="form-check-label">
+                            <label for="rdNao">Não</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar Resposta" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

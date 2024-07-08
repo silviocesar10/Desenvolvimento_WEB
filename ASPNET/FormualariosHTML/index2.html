@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tipos de Inputs</title>
+    </head>
+    <body>
+        <h1>Tipos de Inputs</h1>
+        <hr>
+        <form>
+            <!--readonly deixa o campo apenas como leitura sem possibilidade de altercão-->
+            <input type="text" readonly>
+            <br>
+            <!--quando usamos o disbaled queremos deixar de forma mais explicita o fato de que 
+        o campo esta desabilitado de forma que nãa deva ser usado, sendo assim com esse atributo
+        as caracteristicas visuais do elemento tendem a ter uma leve mudaça-->
+            <input type="text" disabled>
+            <br>
+            <!--o atributo size permite definir a largura do campo mas isso pode ser resolvido tambem com css -->
+            <input type="text" size="60">
+            <br>
+            <!--quando se fala da quantidade de caracteres em um campo deve ser usaso o atributo maxlength-->
+            <input type="text" maxlength="100">
+            <br>
+            <!--o atributo required torna o preenchimento do campo obrigatorio, essa validacao acontece no navegador de forma
+        que nem seja enviado-->
+            <input type="text" required>
+            <br>
+            <!--autofocus direciona o foco a um  campo do atributo-->
+            <input type="text" autofocus>
+            <br>
+            <!--baseado no historico de digitaçao no navegador ele vai sugerir opções de autocomplete quando a opção estiver
+        ativa no campo-->
+            <input type="text" autocomplete="on">
+            <br>
+            <p>
+                <!--nesse caso quando usado em conjunto com uma data list o autofocus pode dar foco a esta lista em questao-->
+                <input
+                    type="text"
+                    name="teste"
+                    id="t"
+                    autofocus
+                    list="minhalista"
+                >
+                <datalist>
+                    <option value="v1"></option>
+                    <option value="v1"></option>
+                    <option value="v1"></option>
+                    <option value="v1"></option>
+                    <option value="v1"></option>
+                </datalist>
+            </p>
+            <!--o atributo pattern permite que o campo obrigue ao usuario usar um certo padrao de escrita de forma a passar
+            como parametro uma espressao regular e tudo que o usuario digitar e nao atebnder nao sera aceito-->
+            <!--usando tambem o atributo required exigira que o campo na seja enviado em branco-->
+            <input type="text" pattern="[A-Z]{3}-[0-9]{4}" required>
+            <!--o tipo password é para preenchimento de senhas e por padrao o autocomplete esta desligado pois nao é 
+            conveniente nesse caso-->
+            <!--usando o tipo de inputs para passwords seria conveniente usar o atributo action do foulario <form action="form.php">
+            que é usado para indicar como o formulario seria enviado por exemplo-->
+            <input type="password">
+            <!--como visto anteriormente o tipo submit é para enviar os dados do formulario de acordo com o metodo de enviado definido
+            e o reset limpa o formualario e retorna ao seu estado original-->
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+            <!--o tipo de input radio geralmente é usado para exclusao mutuamente exclusiva(ou um ou outo XOR) e para que isso
+            aconteca os campos devem ter o mesmo nome para que se reconhecam pertecentes a um mesmo grupo de forma que apenas
+            uma escolha possa ser feita-->
+            <input type="radio" name="estd" id="">
+            <input type="radio" name="estd" id="">
+            <input type="radio" name="estd" id="">
+            <!--o tipo checkbox é usado quando o campo tem de ser selecionado podendo por exemplo selecionar mais de uma opção
+            sendo que o campo pode estar marcado ou desmarcado-->
+            <input type="checkbox" name="" id="">
+            <!--o atributo do tipo button é um atributo generico que pode ser usado para varias acoes
+            sendo um button uma das coisas que ele pode fazer por exemplo é executar acoes a partir de codigos javascript 
+            nesse caso por exemplo onclick="this.form.submit()" seria um codigo javascript que enviaria o fomulario-->
+            <input type="button" value="" onclick="alert('Mensagen')">
+            <br>
+            <!--o tipo de imput color permite selecionar a partir de uma paleta de cores uma cor-->
+            <input type="color" name="" id="">
+            <br>
+            <!--o input do tipo date permite selecionar uma data de um calendario(depende do navegador) ou digitar uma no campo
+            atraves dos aributos mim e max é possivel delimitar a data em um range especifico por exemplo-->
+            <input type="date" min="1079-07-01" max="1980-05-20">
+            <!--assim como o tipo date o tipo datetime-local permite agora alem da data a escolha de um horario
+            nem todos os navegadores suportam exibir esse tipo de campo-->
+            <input type="datetime-local" min="1079-07-01T00:00:00" max="1980-05-20T00:00:00">
+            <!--este campo trata da inserção de emails e a vantagem de usar campos especializados é que permitem a validação antes do envio-->
+            <input type="email" name="" id="">
+            <!--o tipo file permite envio de arquivos ao servidor-->
+            <input type="file" name="" id="">
+            <!--serve para deixar informações ocultas no formulario geralmente ja vem previamente preenchidas para serem enviadas-->
+            <input type="hidden" name="">
+            <!--permite selecionar o mes de um determinado ano podendo ser delimitado por mim e max -->
+            <input type="month" min="2020-12" max="2021-05">
+            <!--o number serve para inserir um numero e pode ser delimitado por mim e max-->
+            <input
+                type="number"
+                min="10"
+                max="20"
+                step="2"
+            >
+            <!--o tipo range permite esccolher um valor dentro de um range a partir de uma barra de scrolling lateral-->
+            <input
+                type="range"
+                min="10"
+                max="200"
+                step="30"
+            >
+            <!--o tipo search é um campo que é voltado para busca com carga semantica de um tipo texto-->
+            <input type="search">
+            <!--o tipo tel é um campo que permite a inserção de um numero de telefone usando o atrbuto pattern deve se informar o padrao -->
+            =
+            <input
+                type="tel"
+                name=""
+                id=""
+                pattern="[0-9]{2} [0-9]{5}-[0-9]{4}"
+            >
+            <!--o campo do tipo time serve para inserir valores de hora podendo ser delimitado por mim e max-->
+            <input type="time" name="" id="">
+            <!--permite a inserção de enderecos de url e faz a verificação do mesmeo-->
+            <input type="url" name="" id="">
+            <!--week permite inserir a semeana de um ano e tambem pode ser delimitado num raqnge por min e max-->
+            <input type="week" name="" id="">
+            <input type="submit" value="">
+        </form>
+    </body>
+</html>
