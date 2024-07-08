@@ -1,0 +1,72 @@
+/*este é um seletor por tipo*/
+h1{
+    color: blue;
+}
+/*este é um seletor por tipo*/
+i{
+    color: blue;
+}
+/*este é um seletor por tipo*/
+ul{
+    background-color: rgb(58, 209, 214);
+}
+/*este é uma classe css*/
+.vermelho{
+    color: red;
+}
+/*este é uma classe css*/
+.fontcolor{
+    color: black;
+}
+/*este é um seletor por id*/
+#p2{
+    font-size: 24px;
+    color: blue;
+}
+/*este é um seletor por tipo*/
+p{
+    color: orange;
+}
+/*o seletor unversal sever para o site e/ou a pagina inteira*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* esse seria um exemplo de agrupamento de seletores
+h1, p{
+            color: blue;
+        }
+        </style>
+*/
+/*no caso abaixo temos um seletor por relacionamento
+onde nesse caso todo elemeto i que esteja em qaulquer h1
+vai recebeer a configuração em questao, e por consequencia
+essa relação o i sendo um decendente de h1 entao esse seletor
+maior importancia do que um seletor de tipo para todo i*/
+h1 i {
+    color: yellow;
+}
+/*diferente do exemplo acima esse exemplo abaxio mostra
+uma relação de pai e filho diferente do exemplo acima 
+que mostra uma relação de decendencia e por isso sendo
+ainda mais especifico do que o exemplo acima*/
+h1 > i {
+    color:green;
+}
+/*o exemplo abaixo é um caso de seletor por visinhaça
+onde por exemplo ul e p estao dentro de body mas p nao
+esta dentro de ul e vice versa e por isso sao chamados 
+de visinhos ou irmaos, portanto esse seletor é o de visinhaça
+ele vai atingir somente o principal e seus posteriores
+nesse caso de ul para frente e tudo que estaria antes de ul
+nao seria atingido por esse seletor*/
+ul ~ p {
+    text-decoration: underline;
+}
+/*o seletor em questao diz que todo elemto a visinho (adjacente)
+ deve receber essa configuração, se por exempo na frente
+de um elemento ul estiver um elemento a e logo em seguida um elemento p
+esse elemento p nao estara atendendo ao parametro de configuração 
+portanto esse p não receberia a configuração especificada abaixo*/
+ul + p {
+    text-decoration: none;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device.width, initial-scale=1.0">
+        <title>Boas Praticas para criação de sites</title>
+    </head>
+    <body>
+        <!--h de niveis mais autos tem menos importancia do que os de niveis mais baixos ex: h1>h2-->
+        <h1 id="titulo1">Boas Praticas para criação de sites</h1>
+        <!--o atrbuto id de identificador unico dentro da pagina nesse caso ajuda a ficar mais facil a identificacao 
+        de partes ou secoes de codigo html que sofreram mudancas atraves de codigo javascript ou css
+         por exemplo-->
+        <hr>
+        <!--é importante colocar as tags de paragrafos <p> e </p> logo que se inicia e finilaza o texto
+        para nao inserir caracteres desnecessarios-->
+        <!--o elemento <b> usado abaixo serve para colocar texto em negrito-->
+        <!--o elemento <big> usado abaixo serve para colocar o texto um pouco maior do 
+        que os outros sendo configuravel atraves de css-->
+        <!--o elemento <small> usado abaixo serve para colocar o texto um pouco menor do 
+        que os outros sendo configuravel atraves de css-->
+        <p>Adipisicing <b>incididunt</b>isi ipsum sunt cillum minim magna enim 
+           aute adipisicing. Cupidatat officia sunt ullamco et nostrud 
+           consectetur commodo <big>adipisicing</big> qui exercitation reprehenderit 
+           est. Lorem sunt elit <small>laboris sit</small> do adipisicing dolor sit nisi 
+           veniam deserunt incididunt. Reprehenderit magna id reprehenderit 
+           nostrud eu nostrud velit non cupidatat duis do.</p>
+        <!--o elemento <i> usado abaixo serve para colocar texto em italico-->
+        <!-- o elemento <em> quando usado coloca o texto em italico mas sua semamtica
+        e diferente de <i> pois seu obejtivo e dar emfase ao texto-->
+        <p>Id nulla <i>occaecat</i> reprehenderit officia nisi. Enim enim non et 
+           mollit cillum Lorem cupidatat veniam qui est. Minim quis ad 
+           exercitation ad dolore <em>Lorem</em> labore. Commodo mollit ex esse mollit 
+           minim cupidatat reprehenderit id enim labore minim minim culpa magna.</p>
+        <!--o elemento <u> usado abaixo serve para colocar texto sublinhado-->
+        <!--o elemento <s> usado abaixo serve para colocar um riscado em cima do texto-->
+        <!--o elemento <s> tem uma semnatica diferente do <s> mas mesmo efeito indicado que 
+        o texto foi substituido-->
+        <p>Mollit eu sit aute <u>proident dolore.</u> Id enim excepteur excepteur aliqua
+           officia officia culpa. Proident incididunt voluptate labore fugiat ut
+           fugiat et exercitation <s>nostrud irure</s> cillum. Occaecat quis labore tempor
+           <del>nostrud duis consequat Lorem</del> esse adipisicing dolor in amet. Enim occaecat
+           elit nulla consectetur excepteur id exercitation nulla irure magna Lorem 
+           minim. Ad sit anim sunt adipisicing est id voluptate.</p>
+        <h2>Tecnologias envolvidas</h2>
+        <ul>
+            <li>HTMl5</li>
+            <li>JAVASCRIPT</li>
+            <li>CSS</li>
+            <li>JPG</li>
+            <li>PNG</li>
+        </ul>
+        <h2>Sequencia de passos</h2>
+        <!--dentro das ol e possivel usar o atrbuto start que define de qual elemento a lista ira comecar e
+            e possivel tambem usar o reversed que inverte a ordem de indexacao da lista onde por exemplo uma lista
+            com 4 elemtos comecando do zero nesse caso iria ficar de 4 o primeiro elemento e 1 o ultimo-->
+        <ol type="I">
+            <li>Analisar requisitos</li>
+            <li>Identificar publico Alvo</li>
+            <li>Criar e aprovar design</li>
+            <li>Programar codigo do site</li>
+            <li>Publicar o site</li>
+        </ol>
+        <!--o elemento tem apenas efeito semantico e nao visual-->
+        <!--a tag html <q> serve para colocar aspas no texto-->
+        <!--o br serve para quebrar linha na visualização--> 
+        <!--o atributo href pode tambem apontar para arquivos dentro do seu site de forma que seja relativo 
+        a uma pagina dentro do proprio site-->
+        <!--o atributo target ele pode gerenciar algumas coisas como o link em questao ira abrir
+        se sera por exemplo na mesma pagina ou ate mesmo em uma nova aba-->   
+        <blockquote cite="http://w3schools.com">
+            <q>et cupidatat nulla occaecat incididunt magna. Aliquip quis aliquip ad tempor aute consequat 
+            eiusmod exercitation ad eiusmod esse amet pariatur culpa. Commodo adipisicing nisi amet magna 
+            cupidatat minim nisi sit ut eiusmod.</q>
+            <br>
+            <a href="http://w3schools.com" target="_blank">Referencia para o autor</a>
+        </blockquote>
+        <h2>Lista de definicoes</h2>
+        <!--dentro de uma lista de descricao ha dois elementos por item a definicao do termo
+        dt e a definicao do significado dd-->
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperTextMarkUpLnaguage</dd>
+            <dt>CSS</dt>
+            <dd>CascadeStyleSheets</dd>
+        </dl>
+        <h2>Codigo base padrao</h2>
+        <!--o elemento code abaixo serve para exibir codigos na pagina de forma que o navegador
+        ignore pois seu objetivo é ser exibido ao usuario de nao renderizado podendo ser codigo de
+        qualquer lingugem de programacao-->
+        <!--a tag <pre> faz com que o codigo mostrando mantenha a formatacao originaal e serve 
+            nao somenete para codigo fonte-->
+        <!--o simbolo html &lt; significa o simbolo menor que -->
+        <!--o simbolo html &gt; significa o simbolo maior  que -->
+        <!--o simbolo html &nbsp; significa o simbolo de espaco -->
+        <pre>
+            <code>
+                //arquivo hello,c
+                
+                #include <stdio.h>
+                      
+                    int main(){
+                        
+                        //imprime a mensagem que estive entre aspas duplas
+                        
+                        printf("Ola mundo.");
+                        
+                        return 0;
+                        
+                    }
+            </code>
+        </pre>
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"/&gt;
+                            &lt;title&gt;Document&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;!-- Conteúdo --&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+            </code>
+        </pre>
+        <p>
+            <!--da mesma forma que foi possivel aqui acessar um id da classe atual atraves do href
+            tabem e possivel acessar elementos de outra paginas atraves da sintaxe:
+            <a href="outrapgina.html#titulo1">Voltar ao Topo</a> -->
+            <a href="#titulo1">Voltar ao Topo</a>
+        </p>
+    </body>
+</html>

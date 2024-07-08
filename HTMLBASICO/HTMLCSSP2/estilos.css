@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+    /*background-color: #aa5522;*/
+    /*background-color: #a52;*/
+    /*background-color: rgb(22,22,22);*/
+    /*background-color: hsl(0,100%,75%);*/
+    /* background-image: url(bg.jpg);
+    background-repeat: repeat;
+    background-position: right bottom;
+    background-attachment: fixed; */
+    background: grey url(bg.jpg) repeat fixed;
+    background-size: 300px;
+}
+
+p {
+    background-color: rgba(0, 0, 255, 0.3);
+    color: white;
+    /* border-style: dashed;
+    border-style: dotted; */
+    /* border-style: double;
+    border-style: groove; */
+    /* border-top-color: black; */
+    /* border-color: black;
+    border-top-style: solid; */
+    /* border-top-width: 3px; */
+    /* border-width: 3px; */
+    /* border-bottom-color: black; */
+    /* border-bottom-style: solid; */
+    /* border-bottom-width: 3px; */
+    /* border-left-width: 15px; */
+    /* border-left-color: gray; */
+    /* border-left-style: dotted; */
+    /* border-left-width: 3px; */
+    /* border-right-style: dotted; */
+    /* border-right-width: 3px; */
+    /*
+    border-style: solid doted;
+    */
+    border: 5px solid black;
+    border-style: solid dotted;
+    border-radius: 10px;
+    /* border-left-radius: 10px;
+    border-top-radius: 10px;
+    border-bottom-radius: 10px;
+    border-right-radius: 10px; */
+    
+    
+}
+#p1{
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    /*outline sempre para o elemto inteiro*/
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    outline-offset: 10px;
+    outline: 3px solid black;
+}

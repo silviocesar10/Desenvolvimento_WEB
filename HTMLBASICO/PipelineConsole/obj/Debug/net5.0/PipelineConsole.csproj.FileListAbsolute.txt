@@ -1,0 +1,16 @@
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/PipelineConsole
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/PipelineConsole.deps.json
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/PipelineConsole.runtimeconfig.json
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/PipelineConsole.runtimeconfig.dev.json
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/PipelineConsole.dll
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/ref/PipelineConsole.dll
+/home/silvio/Documentos/DW/PipelineConsole/bin/Debug/net5.0/PipelineConsole.pdb
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.csproj.AssemblyReference.cache
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.AssemblyInfoInputs.cache
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.AssemblyInfo.cs
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.csproj.CoreCompileInputs.cache
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.dll
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/ref/PipelineConsole.dll
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.pdb
+/home/silvio/Documentos/DW/PipelineConsole/obj/Debug/net5.0/PipelineConsole.genruntimeconfig.cache
